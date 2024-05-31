@@ -17,42 +17,52 @@ def Multiplication(firstNumber, secondNumber):
 
 def Division(firstNumber, secondNumber):
     if secondNumber == 0:
-        return "Error: Invalid (Division by 0)"
+        return f"{RED} Error: Invalid (Division by 0){RESET}"
     else:
         return firstNumber/secondNumber
     
 def GoodByeMessage():
-    print("Thanks for using my Calculator. Good Bye!")
+    print(f"{GREEN}Thanks for using my Calculator. Good Bye!{RESET}")
 
 def Choice(choice):
     if choice == 1:
-        print("{} + {} = {}".format(firstNumber, secondNumber, Addition(firstNumber, secondNumber)))
+        print("{} {} + {} = {} {}".format(GREEN, firstNumber, secondNumber, Addition(firstNumber, secondNumber), RESET))
     elif choice == 2:
-        print("{} - {} = {}".format(firstNumber, secondNumber, Subtraction(firstNumber, secondNumber)))
+        print("{} {} - {} = {} {}".format(GREEN, firstNumber, secondNumber, Subtraction(firstNumber, secondNumber), RESET))
     elif choice == 3:
-        print("{} x {} = {}".format(firstNumber, secondNumber, Multiplication(firstNumber, secondNumber)))
+        print("{} {} x {} = {} {}".format(GREEN, firstNumber, secondNumber, Multiplication(firstNumber, secondNumber), RESET))
     elif choice == 4:
-        print("{} / {} = {}".format(firstNumber, secondNumber, Division(firstNumber, secondNumber)))
+        print("{} {} / {} = {} {}".format(GREEN, firstNumber, secondNumber, Division(firstNumber, secondNumber), RESET))
     else:
-        print("Thanks for Using my calulator")
+        print(f"{GREEN}Thanks for Using my calulator{RESET}")
 
 
 
 # MAIN PROGRAM
+GREEN = "\033[32m" #ANSI COLOR CODE FOR TERMINAL
+RED = "\033[31m"
+RESET = "\033[0m" # RESET TO DEFAULT COLOR
+CYAN = "\033[36m"
+MAGENTA = "\033[35m" 
 
-print("*** SIMPLE CALCULATOR PROGRAM ***")
-print("1. Addition ")
-print("2. Subtraction")
-print("3. Multiplication")
-print("4. Division")
-print("5. Quit")
+exitCalculator = True
+while (exitCalculator):
+    print(f"{MAGENTA}*** SIMPLE CALCULATOR PROGRAM ***")
+    print(f"{CYAN}\t1. Addition ")
+    print("\t2. Subtraction")
+    print("\t3. Multiplication")
+    print("\t4. Division")
+    print(f"\t5. Exit{RESET}")
 
-choice = int(input("Make a choice: "))
+    choice = int(input("Make a choice: "))
 
-if choice == 5:
-    GoodByeMessage()
-else:
-    firstNumber = int(input("Enter the first number: "))
-    secondNumber = int(input("Enter the second number: "))
+    if choice == 5:
+        GoodByeMessage()
+        exitCalculator = False
+    elif choice == 1 or choice == 2 or choice == 3 or choice == 4:
+        firstNumber = int(input("Enter the first number: "))
+        secondNumber = int(input("Enter the second number: "))
+        Choice(choice)
+    else:
+        print(f"{RED}Invalid response. If you want to quit choose option 5!{RESET}")
 
-    Choice(choice)
