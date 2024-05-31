@@ -23,10 +23,11 @@ In this repository, you will find:
 # Getting Started
 To get started with this repository:
 
-Clone the Repository:
-git clone: https://github.com/Maximus-Ay/PythonBasics101-.git
-Navigate to the Directory: cd PythonBasics101
-Run the Code: Explore the individual Python scripts in each section to see examples and explanations.
+- Clone the Repository: git clone: https://github.com/Maximus-Ay/PythonBasics101-.git
+
+- Navigate to the Directory: cd PythonBasics101
+
+- Run the Code: Explore the individual Python scripts in each section to see examples and explanations.
 
 # Contribution
 Contributions are welcome! If you have any suggestions for improvements or additional topics, please feel free to fork this repository, make your changes, and submit a pull request.
