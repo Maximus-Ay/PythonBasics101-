@@ -44,6 +44,7 @@ RED = "\033[31m"
 RESET = "\033[0m" # RESET TO DEFAULT COLOR
 CYAN = "\033[36m"
 MAGENTA = "\033[35m" 
+YELLOW = "\033[33m"
 
 exitCalculator = True
 while (exitCalculator):
@@ -54,7 +55,7 @@ while (exitCalculator):
     print("\t4. Division")
     print(f"\t5. Exit{RESET}")
 
-    choice = int(input("Make a choice: "))
+    choice = int(input(f"{YELLOW}Make a choice: "))
 
     if choice == 5:
         GoodByeMessage()
