@@ -24,6 +24,11 @@ def Nor(firstInput, secondInput):
 def Xor(firstInput, secondInput):
     pass
 
+def GoodByMessage():
+    print("Thanks for using my application. GoodBye!")
+
+
+
 
 #MAIN 
 keepGoing = True
@@ -39,6 +44,21 @@ while(keepGoing):
     print("7. Quit")
 
     choice = int(input("Make a choice: "))
+
+    if choice == 7:
+        GoodByMessage()
+    elif choice == 3:
+        input = int(input("Enter the input (either 1 or 0): "))
+        Not(input)
+    elif choice == 1 or choice == 2 or choice == 4 or choice == 5 or choice == 6:
+        firstInput = int(input("Enter the first input(either 1 or 0): "))
+        secondInput = int(input("Enter the second input(either 1 or 0): "))
+        Choice(choice)
+    else:
+        print("Invalid response! If you want to quit, click on 7.")
+
+
+
 
 
 
