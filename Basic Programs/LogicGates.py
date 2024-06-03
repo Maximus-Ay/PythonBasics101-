@@ -3,6 +3,7 @@
     and loops to represent the different logic gates.
     Here I will be dealing mostly with the AND, OR and NOT and their variants like the NAND and NOR.
     Also dealing with the XOR gate as well 
+    However it deals only with 1 input
 
 '''
 def Choice(choice):
@@ -19,21 +20,39 @@ def Choice(choice):
 
 
 def And(firstInput, secondInput):
-    pass
+    if firstInput == 1 and secondInput == 1:
+        return 1
+    else:
+        return 0
 def Or(firstInput, secondInput):
-    pass
+    if firstInput == 0 and secondInput == 0:
+        return 0
+    else:
+        return 1
 
 def Not(firstInput):
-    pass
+    if firstInput == 0:
+        return 1
+    else:
+        return 0
 
 def Nand(firstInput, secondInput):
-    pass
+    if firstInput == 1 and secondInput == 1:
+        return 0
+    else:
+        return 1
 
 def Nor(firstInput, secondInput):
-    pass
+    if firstInput == 0 and secondInput == 0:
+        return 1
+    else:
+        return 0
 
 def Xor(firstInput, secondInput):
-    pass
+    if (firstInput == 0 and secondInput == 1) or (firstInput == 1 and secondInput == 0):
+        return 1
+    else:
+        return 0
 
 def GoodByMessage():
     print("Thanks for using my application. GoodBye!")
