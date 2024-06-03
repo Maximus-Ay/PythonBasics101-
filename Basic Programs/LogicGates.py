@@ -1,11 +1,22 @@
 '''
     This program is an interactive program that permits me to couple my knowledge of conditional statements
     and loops to represent the different logic gates.
-    Here I will be dealing mostly with the AND, OR and NOT gate.
+    Here I will be dealing mostly with the AND, OR and NOT and their variants like the NAND and NOR.
+    Also dealing with the XOR gate as well 
 
 '''
 def Choice(choice):
-    pass
+    if choice == 1:
+        print("{} AND {} = {}".format(firstInput, secondInput, And(firstInput, secondInput)))
+    elif choice == 2:
+        print("{} OR {} = {}".format(firstInput, secondInput, Or(firstInput, secondInput)))
+    elif choice == 4:
+        print("{} NAND {} = {}".format(firstInput, secondInput, Nand(firstInput, secondInput)))
+    elif choice == 5:
+        print("{} NOR {} = {}".format(firstInput, secondInput, Nor(firstInput, secondInput)))
+    else:
+        print("{} XOR {} = {}".format(firstInput, secondInput, Xor(firstInput, secondInput)))
+
 
 def And(firstInput, secondInput):
     pass
