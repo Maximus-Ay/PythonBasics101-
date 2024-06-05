@@ -5,25 +5,30 @@
     - Loops that help you to repeat the process as often as you want
     - Functions for modularity
 '''
-
+# Addition function
 def Addition(firstNumber, secondNumber):
     return firstNumber + secondNumber
 
+# Subtraction function
 def Subtraction(firstNumber, secondNumber):
     return firstNumber - secondNumber
 
+# Multiplication function
 def Multiplication(firstNumber, secondNumber):
     return firstNumber * secondNumber
 
+# Division function
 def Division(firstNumber, secondNumber):
     if secondNumber == 0:
         return f"{RED} Error: Invalid (Division by 0){RESET}"
     else:
         return firstNumber/secondNumber
     
+# Goodbye Message
 def GoodByeMessage():
     print(f"{GREEN}Thanks for using my Calculator. Good Bye!{RESET}")
 
+# Choice Method
 def Choice(choice):
     if choice == 1:
         print("{} {} + {} = {} {}".format(GREEN, firstNumber, secondNumber, Addition(firstNumber, secondNumber), RESET))
