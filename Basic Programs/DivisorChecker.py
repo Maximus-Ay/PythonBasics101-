@@ -1,5 +1,7 @@
 '''
     This program checks to see if a number is a divisor of another.
+    Makes use of a function called isDivisor which returns a boolean.
+    
 '''
 
 def isDivisor(number, check):
