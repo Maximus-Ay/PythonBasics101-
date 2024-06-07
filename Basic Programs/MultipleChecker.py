@@ -10,7 +10,8 @@ def isMultiple(number, multiple):
 
 number = int(input("Enter the number: "))
 
-multiple = int(int("Enter the number to check: "))
+multiple = int(input("Enter the number to check: "))
 
-print(isMultiple(number, ))
+print(isMultiple(number, multiple))
+
 
