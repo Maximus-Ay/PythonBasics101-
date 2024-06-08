@@ -16,11 +16,11 @@ computerValue = random.randint(min, max+1)
 flag = True
 while flag == True:
     userGuess = int(input("Enter your guess: "))
+
     if attempts == 0:
         print("You failed the game!")
-        break
+        flag = False
     else: 
-
         if userGuess > computerValue:
             attempts = attempts - 1
             print("Too High. Try Again! you have {} attempts left".format(attempts))
