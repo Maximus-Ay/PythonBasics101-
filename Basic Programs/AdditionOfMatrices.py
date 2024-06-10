@@ -6,44 +6,42 @@
 
 '''
  
-rows = int(input("Enter the number of rows: "))
-columns = int(input("Enter the number of columns: "))
-matrix1 = []
-matrix2 = []
-resultMatrix = []
+rows = int(input('Enter number of rows: '))
+cols  = int(input('Enter number of column: '))
 
+print() 
+print('Enter values for matrix A')
 
+matrix_A = [[int(input(f"Enter element {i+1} for Column {j+1}:")) for j in range(cols)] for i in range(rows) ]  
 
-print("Enter the values of matrix 1 by row: \n")
+print()
+print('Enter values for matrix B ')
+
+matrix_B = [[int(input(f"Enter element {i+1} for Column {j+1}:")) for j in range(cols)] for i in range(rows) ]  
+
+print() #for new line
+
+print('Matrix-A :')
+for i in matrix_A:
+    print(i)
+
+print() #for new line
+
+print('Matrix-B :')
+for i in matrix_B:
+    print(i)
+
+# resultant matrix (matrix that store answer and intially it is Zero)
+result = [[0 for j in range(cols)] for i in range(rows)]
+
+# addition
 for i in range(rows):
-    for j in range (columns):
-        matrix1.append(int(input("Enter the value of row {}: ".format(i+1))))
-'''
-print("Enter the values of matrix 2 by row: ")
-for i in range(0,rows+1):
-    for j in range (0, columns+1):
-        pass
-'''
-        
-'''    
-for i in range(rows):
-    for j in range(columns):
-        #resultMatrix[i][j] = matrix1[i][j] + matrix2[i][j]
-'''
+    for j in range(cols):
+        result[i][j] = matrix_A[i][j] + matrix_B[i][j]
 
-print("Matrix 1 is: ")
-for i in range(rows):
-    for j in range(columns):
-        print(matrix1)
+print() #for new line
 
-'''
-print("Matrix 2 is: ")
-for i in range(rows):
-    for j in range(columns):
-        #print(matrix2[i][j], end="\t")
+print('Addition of Matrix-A and Matrix-B is :')
 
-print("The Addition of Both Matrices is: ")
-for i in range(rows):
-    for j in range(columns):
-        #print(resultMatrix[i][j], end="\t")
-        '''
+for i in result:
+    print(i)
