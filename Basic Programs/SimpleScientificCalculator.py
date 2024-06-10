@@ -11,8 +11,26 @@
     -> Solving simultaneous equations with three unknowns
     -> A small calculation game at the end of it all.
 '''
+def Basic():
+    pass
 
+def Matrix():
+    pass
 
+def Vector():
+    pass
+
+def SimulWithTwoUnknowns():
+    pass
+
+def SimulWithThreeUnknowns():
+    pass
+
+def calculationGame():
+    pass
+
+def Quit():
+    pass
 
 
 print("*** WELCOME TO MY BASIC CALCULATOR***")
@@ -24,3 +42,11 @@ print("3. Vector operations")
 print("4. Simultaneous equations with 2 unknowns")
 print("5. Simultaneous equations with 3 unknowns")
 print("6. Calculation game")
+print("7. Quit")
+
+choice = int(input("Enter your choice: "))
+
+if choice == 1:
+    Basic()
+
+
