@@ -30,7 +30,7 @@ def calculationGame():
     pass
 
 def Quit():
-    pass
+    print("Thanks for using my calculator!")
 
 
 print("*** WELCOME TO MY BASIC CALCULATOR***")
@@ -48,5 +48,23 @@ choice = int(input("Enter your choice: "))
 
 if choice == 1:
     Basic()
+elif choice == 2:
+    Matrix()
+elif choice == 3:
+    Vector()
+elif choice == 4:
+    SimulWithTwoUnknowns()
+elif choice == 5:
+    SimulWithThreeUnknowns()
+elif choice == 6:
+    calculationGame()
+elif choice == 7:
+    Quit()
+else:
+    option = input("Invalid input do you wish to quit or continue (answer y or n): ")
+    if option == "y":
+        Quit()
+    else:
+        choice = int(input("Enter a choice from the menu still: "))
 
 
