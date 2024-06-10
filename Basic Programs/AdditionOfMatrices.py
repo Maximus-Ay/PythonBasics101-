@@ -17,7 +17,7 @@ resultMatrix = []
 print("Enter the values of matrix 1 by row: \n")
 for i in range(rows):
     for j in range (columns):
-        matrix1.append(int(input("Enter the value of row {}".format(i+1))))
+        matrix1.append(int(input("Enter the value of row {}: ".format(i+1))))
 '''
 print("Enter the values of matrix 2 by row: ")
 for i in range(0,rows+1):
