@@ -16,3 +16,11 @@
 
 
 print("*** WELCOME TO MY BASIC CALCULATOR***")
+print("***********      MENU     ***********")
+
+print("1. Basic Mathematical Operations")
+print("2. Matrix Operations")
+print("3. Vector operations")
+print("4. Simultaneous equations with 2 unknowns")
+print("5. Simultaneous equations with 3 unknowns")
+print("6. Calculation game")
