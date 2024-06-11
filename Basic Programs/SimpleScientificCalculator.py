@@ -12,7 +12,17 @@
     -> A small calculation game at the end of it all.
 '''
 def Basic():
-    pass
+    print("WELCOME TO BASIC MATHEMATICAL OPERATIONS")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Modulus")
+    print("6. Quit")
+
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        
 
 def Matrix():
     pass
