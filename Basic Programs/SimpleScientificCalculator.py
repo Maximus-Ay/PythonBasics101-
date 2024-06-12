@@ -21,7 +21,15 @@ def Basic():
     print("6. Quit")
 
     choice = int(input("Enter your choice: "))
-    if choice == 1:
+    if choice == 6:
+        print("Thanks for using my calculator")
+    else:
+        firstNumber = int(input("Enter the first number: "))
+        secondNumber = int(input("Enter the first number: "))
+        if choice == 1:
+            print("{} + {} = {}".format(firstNumber, secondNumber, firstNumber + secondNumber))
+        else:
+            pass
         
 
 def Matrix():
