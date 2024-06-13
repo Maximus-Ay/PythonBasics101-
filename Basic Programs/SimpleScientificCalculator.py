@@ -28,8 +28,16 @@ def Basic():
         secondNumber = int(input("Enter the first number: "))
         if choice == 1:
             print("{} + {} = {}".format(firstNumber, secondNumber, firstNumber + secondNumber))
+        elif choice == 2:
+            print("{} - {} = {}".format(firstNumber, secondNumber, firstNumber - secondNumber))
+        elif choice == 3:
+            print("{} x {} = {}".format(firstNumber, secondNumber, firstNumber * secondNumber))
+        elif choice == 4:
+            print("{} / {} = {}".format(firstNumber, secondNumber, firstNumber / secondNumber))
+        elif choice == 5:
+            print("{} mod {} = {}".format(firstNumber, secondNumber, firstNumber % secondNumber))
         else:
-            pass
+            print("Invalid choice")
         
 
 def Matrix():
