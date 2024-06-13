@@ -85,6 +85,8 @@ while True:
     mainMenu()
 
     choice = int(input("Enter your choice: "))
+    # after selecting the choice, the screen is cleared as well
+    clearScreen()
 
     if choice == 1:
         Basic()
