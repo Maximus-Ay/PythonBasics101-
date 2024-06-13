@@ -11,6 +11,8 @@
     -> Solving simultaneous equations with three unknowns
     -> A small calculation game at the end of it all.
 '''
+
+import os
 def Basic():
     print("WELCOME TO BASIC MATHEMATICAL OPERATIONS")
     print("1. Addition")
@@ -70,8 +72,16 @@ def mainMenu():
     print("6. Calculation game")
     print("7. Quit")
 
-while True:
+def clearScreen():
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
 
+
+while True:
+    # Screen is cleared if the menu is loaded again.
+    clearScreen()
     mainMenu()
 
     choice = int(input("Enter your choice: "))
