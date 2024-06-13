@@ -58,39 +58,43 @@ def calculationGame():
 def Quit():
     print("Thanks for using my calculator!")
 
+def mainMenu():
+    print("*** WELCOME TO MY BASIC CALCULATOR***")
+    print("***********      MENU     ***********")
 
-print("*** WELCOME TO MY BASIC CALCULATOR***")
-print("***********      MENU     ***********")
+    print("1. Basic Mathematical Operations")
+    print("2. Matrix Operations")
+    print("3. Vector operations")
+    print("4. Simultaneous equations with 2 unknowns")
+    print("5. Simultaneous equations with 3 unknowns")
+    print("6. Calculation game")
+    print("7. Quit")
 
-print("1. Basic Mathematical Operations")
-print("2. Matrix Operations")
-print("3. Vector operations")
-print("4. Simultaneous equations with 2 unknowns")
-print("5. Simultaneous equations with 3 unknowns")
-print("6. Calculation game")
-print("7. Quit")
+while True:
 
-choice = int(input("Enter your choice: "))
+    mainMenu()
 
-if choice == 1:
-    Basic()
-elif choice == 2:
-    Matrix()
-elif choice == 3:
-    Vector()
-elif choice == 4:
-    SimulWithTwoUnknowns()
-elif choice == 5:
-    SimulWithThreeUnknowns()
-elif choice == 6:
-    calculationGame()
-elif choice == 7:
-    Quit()
-else:
-    option = input("Invalid input do you wish to quit or continue (answer y or n): ")
-    if option == "y":
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        Basic()
+    elif choice == 2:
+        Matrix()
+    elif choice == 3:
+        Vector()
+    elif choice == 4:
+        SimulWithTwoUnknowns()
+    elif choice == 5:
+        SimulWithThreeUnknowns()
+    elif choice == 6:
+        calculationGame()
+    elif choice == 7:
         Quit()
+        break
     else:
-        choice = int(input("Enter a choice from the menu still: "))
+        option = input("Invalid input do you wish to quit or continue (answer y or n): ")
+        if option == "y":
+            Quit()
+            break
 
 
