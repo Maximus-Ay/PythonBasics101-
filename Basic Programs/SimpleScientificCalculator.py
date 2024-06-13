@@ -23,7 +23,7 @@ def Basic():
     choice = int(input("Enter your choice: "))
     if choice == 6:
         print("Thanks for using my calculator")
-    else:
+    elif choice ==1 or choice ==2 or choice ==3 or choice ==4 or choice ==5:
         firstNumber = int(input("Enter the first number: "))
         secondNumber = int(input("Enter the first number: "))
         if choice == 1:
@@ -36,8 +36,8 @@ def Basic():
             print("{} / {} = {}".format(firstNumber, secondNumber, firstNumber / secondNumber))
         elif choice == 5:
             print("{} mod {} = {}".format(firstNumber, secondNumber, firstNumber % secondNumber))
-        else:
-            print("Invalid choice")
+    else:
+        print("Invalid choice") 
         
 
 def Matrix():
