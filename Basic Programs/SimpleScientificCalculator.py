@@ -53,11 +53,11 @@ def SimulWithTwoUnknowns():
     print("Getting input from equation 1.....")
     a = int(input("Please enter the coefficient of x in equation 1: "))
     b = int(input("Please enter the coefficient of y in equation 1: "))
-    c = int(input("Enter the constant term in equation 1 (on the RHS): "))
+    e = int(input("Enter the constant term in equation 1 (on the RHS): "))
 
     print("Getting input for the equation 2....")
-    d = int(input("Please enter the coefficient of x in equation 2: "))
-    e = int(input("Please enter the coefficient of y in equation 2: "))
+    c = int(input("Please enter the coefficient of x in equation 2: "))
+    d = int(input("Please enter the coefficient of y in equation 2: "))
     f = int(input("Enter the constant term in equation 2 (on the RHS): "))
 
     print("{}x + {}y = {}----------(1)".format(a,b,c))
@@ -65,7 +65,14 @@ def SimulWithTwoUnknowns():
 
     # To solve this equations we will use Cramers Rule
 
-    
+    determinant = (a*d)-(b*d)
+    xdeterminant = (e*d)-(f*b)
+    ydeterminant = (a*f) - (c*e)
+
+    x = xdeterminant/determinant
+    y = ydeterminant/determinant
+
+    print("Solution to the simultaneous equation is x = {} and y = {}".format(x,y))
 
 def SimulWithThreeUnknowns():
     pass
