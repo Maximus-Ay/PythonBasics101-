@@ -81,7 +81,7 @@ def SimulWithTwoUnknowns():
             pass
         else:
             break
-        
+
 
 def SimulWithThreeUnknowns():
     pass
