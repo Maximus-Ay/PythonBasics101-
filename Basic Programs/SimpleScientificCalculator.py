@@ -88,6 +88,8 @@ while True:
     # after selecting the choice, the screen is cleared as well
     clearScreen()
 
+    
+
     if choice == 1:
         Basic()
     elif choice == 2:
