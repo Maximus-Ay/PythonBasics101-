@@ -49,7 +49,20 @@ def Vector():
     pass
 
 def SimulWithTwoUnknowns():
-    pass
+    print("Welcome to simultaneous equations with two unknowns, (say x and y)")
+    print("Getting input from equation 1.....")
+    a = int(input("Please enter the coefficient of x in equation 1: "))
+    b = int(input("Please enter the coefficient of y in equation 1: "))
+    c = int(input("Enter the constant term in equation 1 (on the RHS): "))
+
+    print("Getting input for the equation 2....")
+    d = int(input("Please enter the coefficient of x in equation 2: "))
+    e = int(input("Please enter the coefficient of y in equation 2: "))
+    f = int(input("Enter the constant term in equation 2 (on the RHS): "))
+
+    print("{}x + {}y = {}----------(1)".format(a,b,c))
+    print("{}x + {}y = {}----------(2)".format(d,e,f))
+    
 
 def SimulWithThreeUnknowns():
     pass
@@ -88,7 +101,7 @@ while True:
     # after selecting the choice, the screen is cleared as well
     clearScreen()
 
-    
+
 
     if choice == 1:
         Basic()
