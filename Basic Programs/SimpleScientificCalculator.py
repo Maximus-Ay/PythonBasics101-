@@ -62,7 +62,8 @@ def SimulWithTwoUnknowns():
 
     print("{}x + {}y = {}----------(1)".format(a,b,c))
     print("{}x + {}y = {}----------(2)".format(d,e,f))
-    
+
+    # To solve this equations we will use Cramers Rule
 
 def SimulWithThreeUnknowns():
     pass
