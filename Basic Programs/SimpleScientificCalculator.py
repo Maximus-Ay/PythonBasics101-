@@ -66,7 +66,7 @@ def SimulWithTwoUnknowns():
 
         # To solve this equations we will use Cramers Rule
 
-        determinant = (a*d)-(b*d)
+        determinant = (a*d)-(b*c)
         xdeterminant = (e*d)-(f*b)
         ydeterminant = (a*f) - (c*e)
 
@@ -78,7 +78,7 @@ def SimulWithTwoUnknowns():
         userinput = input("Do you wish to continue (y or n): ")
 
         if userinput == "y":
-            pass
+            clearScreen()
         else:
             break
 
