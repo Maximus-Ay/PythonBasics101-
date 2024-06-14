@@ -65,6 +65,8 @@ def SimulWithTwoUnknowns():
 
     # To solve this equations we will use Cramers Rule
 
+    
+
 def SimulWithThreeUnknowns():
     pass
 
