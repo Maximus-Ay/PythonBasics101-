@@ -61,6 +61,8 @@ def SimulWithTwoUnknowns():
         d = int(input("Please enter the coefficient of y in equation 2: "))
         f = int(input("Enter the constant term in equation 2 (on the RHS): "))
 
+        print("The equations entered are: ")
+
         print("{}x + {}y = {}----------(1)".format(a,b,c))
         print("{}x + {}y = {}----------(2)".format(d,e,f))
 
@@ -103,6 +105,8 @@ def SimulWithThreeUnknowns():
         h = int(input("Please enter the coefficient of y in equation 3: "))
         i = int(input("Please enter the coefficient of z in equation 3: "))
         l = int(input("Enter the constant term in equation 3 (on the RHS): "))
+
+        print("The equations given are: ")
 
         print("{}x + {}y + {}z = {}----------(1)".format(a,b,c,j))
         print("{}x + {}y + {}z = {}----------(2)".format(d,e,f,k))
