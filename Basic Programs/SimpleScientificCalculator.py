@@ -84,7 +84,38 @@ def SimulWithTwoUnknowns():
 
 
 def SimulWithThreeUnknowns():
-    pass
+    while True:
+        print("Welcome to simultaneous equations with two unknowns, (say x and y)")
+        print("Getting input from equation 1.....")
+        a = int(input("Please enter the coefficient of x in equation 1: "))
+        b = int(input("Please enter the coefficient of y in equation 1: "))
+        e = int(input("Enter the constant term in equation 1 (on the RHS): "))
+
+        print("Getting input for the equation 2....")
+        c = int(input("Please enter the coefficient of x in equation 2: "))
+        d = int(input("Please enter the coefficient of y in equation 2: "))
+        f = int(input("Enter the constant term in equation 2 (on the RHS): "))
+
+        print("{}x + {}y = {}----------(1)".format(a,b,c))
+        print("{}x + {}y = {}----------(2)".format(d,e,f))
+
+        # To solve this equations we will use Cramers Rule
+
+        determinant = (a*d)-(b*c)
+        xdeterminant = (e*d)-(f*b)
+        ydeterminant = (a*f) - (c*e)
+
+        x = xdeterminant/determinant
+        y = ydeterminant/determinant
+
+        print("Solution to the simultaneous equation is x = {} and y = {}".format(x,y))
+
+        userinput = input("Do you wish to continue (y or n): ")
+
+        if userinput == "y":
+            clearScreen()
+        else:
+            break
 
 def calculationGame():
     pass
