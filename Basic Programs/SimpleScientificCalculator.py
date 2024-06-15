@@ -120,7 +120,7 @@ def SimulWithThreeUnknowns():
         y = ydeterminant/determinant
         z = zdeterminant/determinant
 
-        print("Solution to the simultaneous equation is x = {} and y = {}".format(x,y))
+        print("Solution to the simultaneous equation is x = {}, y = {} and z = {}".format(x,y,z))
 
         userinput = input("Do you wish to continue (y or n): ")
 
