@@ -85,16 +85,18 @@ def SimulWithTwoUnknowns():
 
 def SimulWithThreeUnknowns():
     while True:
-        print("Welcome to simultaneous equations with two unknowns, (say x and y)")
+        print("Welcome to simultaneous equations with three unknowns, (say x, y and z)")
         print("Getting input from equation 1.....")
         a = int(input("Please enter the coefficient of x in equation 1: "))
         b = int(input("Please enter the coefficient of y in equation 1: "))
-        e = int(input("Enter the constant term in equation 1 (on the RHS): "))
+        c = int(input("Please Enter the coefficient of z in equation 1: "))
+        j = int(input("Enter the constant term in equation 1 (on the RHS): "))
 
         print("Getting input for the equation 2....")
-        c = int(input("Please enter the coefficient of x in equation 2: "))
-        d = int(input("Please enter the coefficient of y in equation 2: "))
-        f = int(input("Enter the constant term in equation 2 (on the RHS): "))
+        d = int(input("Please enter the coefficient of x in equation 2: "))
+        e = int(input("Please enter the coefficient of y in equation 2: "))
+        f = int(input("Please enter the coefficient of z in equation 2: "))
+        k = int(input("Enter the constant term in equation 2 (on the RHS): "))
 
         print("{}x + {}y = {}----------(1)".format(a,b,c))
         print("{}x + {}y = {}----------(2)".format(d,e,f))
