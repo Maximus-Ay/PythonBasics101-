@@ -104,17 +104,21 @@ def SimulWithThreeUnknowns():
         i = int(input("Please enter the coefficient of z in equation 3: "))
         l = int(input("Enter the constant term in equation 3 (on the RHS): "))
 
-        print("{}x + {}y = {}----------(1)".format(a,b,c))
-        print("{}x + {}y = {}----------(2)".format(d,e,f))
+        print("{}x + {}y + {}z = {}----------(1)".format(a,b,c,j))
+        print("{}x + {}y + {}z = {}----------(2)".format(d,e,f,k))
+        print("{}x + {}y + {}z = {}----------(3)".format(g,h,i,l))
+
 
         # To solve this equations we will use Cramers Rule
 
-        determinant = (a*d)-(b*c)
-        xdeterminant = (e*d)-(f*b)
-        ydeterminant = (a*f) - (c*e)
+        determinant = a*((e*i)  - (h*f)) - b*((d*i) - (g*f)) + c*((d*h) - (e*g))
+        xdeterminant = j*((e*i) - (h*f)) - b*((k*i) - (l*f)) + c*((k*h) - (e*l))
+        ydeterminant = a*((k*i) - (l*f)) - j*((d*i) - (g*f)) + c*((d*l) - (k*g))
+        zdeterminant = a*((e*l) - (k*h)) - b*((d*l) - (g*k)) + j*((d*h) - (e*g))
 
         x = xdeterminant/determinant
         y = ydeterminant/determinant
+        z = zdeterminant/determinant
 
         print("Solution to the simultaneous equation is x = {} and y = {}".format(x,y))
 
