@@ -46,7 +46,13 @@ def Matrix():
     pass
 
 def Vector():
-    pass
+    while True:
+        print('WELCOME TO THE VECTORS SECTION')
+        print('1. Addition of vectors')
+        print('2. Subtraction of vectors')
+        print('3. Cross Product of vectors')
+        print('4. Dot product of vectors')
+        print('5. Magnetude of a vector')
 
 def SimulWithTwoUnknowns():
     while True:
