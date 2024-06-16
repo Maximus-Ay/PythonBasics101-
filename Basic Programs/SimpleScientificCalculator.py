@@ -45,12 +45,38 @@ def Basic():
 def Matrix():
     pass
 
-def VectorCalculations():
+def VectorCalculations(choiceInput):
     print("Vector Choice: ")
     print("1. 2D vector (components i and j)")
     print("2. 3D vectors(components i,j and k)")
 
     choiceOfVectorType = int(input("Enter the vector choice: "))
+
+    if choiceOfVectorType == 1:
+        if choiceInput == 1:
+            pass
+        elif choiceInput == 2:
+            pass
+        elif choiceInput == 3:
+            pass
+        elif choiceInput == 4:
+            pass
+        elif choiceInput == 5:
+            pass
+    
+    if choiceOfVectorType == 2:
+        if choiceInput == 1:
+            pass
+        elif choiceInput == 2:
+            pass
+        elif choiceInput == 3:
+            pass
+        elif choiceInput == 4:
+            pass
+        elif choiceInput == 5:
+            pass
+    
+
 
 
 def Vector():
@@ -61,8 +87,22 @@ def Vector():
         print('3. Cross Product of vectors')
         print('4. Dot product of vectors')
         print('5. Magnetude of a vector')
+        print('6. Quit')
+
 
         choiceInput = int(input("Enter your choice"))
+
+        if choiceInput == 6:
+            print("Thanks for using my Calculator")
+            break
+
+        VectorCalculations(choiceInput)
+
+        userAnswer = int(input("Do you wish to continue: (y or n)"))
+        if userAnswer == 'y':
+            pass
+        else:
+            break
         
 
 
