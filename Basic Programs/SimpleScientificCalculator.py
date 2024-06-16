@@ -45,6 +45,14 @@ def Basic():
 def Matrix():
     pass
 
+def VectorCalculations():
+    print("Vector Choice: ")
+    print("1. 2D vector (components i and j)")
+    print("2. 3D vectors(components i,j and k)")
+
+    choiceOfVectorType = int(input("Enter the vector choice: "))
+
+
 def Vector():
     while True:
         print('WELCOME TO THE VECTORS SECTION')
@@ -55,12 +63,8 @@ def Vector():
         print('5. Magnetude of a vector')
 
         choiceInput = int(input("Enter your choice"))
-        print("Vector Choice: ")
-        print("1. 2D vector (components i and j)")
-        print("2. 3D vectors(components i,j and k)")
-
-        choiceOfVectorType = int(input("Enter the vector choice: "))
         
+
 
 def SimulWithTwoUnknowns():
     while True:
