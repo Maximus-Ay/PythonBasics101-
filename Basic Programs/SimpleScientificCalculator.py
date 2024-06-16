@@ -54,6 +54,14 @@ def Vector():
         print('4. Dot product of vectors')
         print('5. Magnetude of a vector')
 
+        choiceInput = int(input("Enter your choice"))
+        print("Vector Choice: ")
+        print("1. 2D vector (components i and j)")
+        print("2. 3D vectors(components i,j and k)")
+
+        choiceOfVectorType = int(input("Enter the vector choice: "))
+        
+
 def SimulWithTwoUnknowns():
     while True:
         print("Welcome to simultaneous equations with two unknowns, (say x and y)")
