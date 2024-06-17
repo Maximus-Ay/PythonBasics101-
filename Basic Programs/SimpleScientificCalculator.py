@@ -13,6 +13,7 @@
 '''
 
 import os
+from math import sqrt
 def Basic():
     print("WELCOME TO BASIC MATHEMATICAL OPERATIONS")
     print("1. Addition")
@@ -64,10 +65,10 @@ def VectorCalculations(choiceInput):
         print("{}i + {}j = {}--------(1)".format(x,y,k))
         print("{}i + {}j = {}--------(2)".format(a,b,c))
         if choiceInput == 1:
-            print("{}i + {}j = {} + {}i + {}j = {}".format(x,y,k,a,b,c))
+            print("({}i + {}j = {}) + ({}i + {}j = {})".format(x,y,k,a,b,c))
             print("Answer: {}i + {}j = {}".format(x+a, y+b, k+c))
         elif choiceInput == 2:
-            print("{}i + {}j = {} + {}i + {}j = {}".format(x,y,k,a,b,c))
+            print("({}i + {}j = {}) - ({}i + {}j = {})".format(x,y,k,a,b,c))
             print("Answer: {}i + {}j = {}".format(x-a, y-b, k-c))
         elif choiceInput == 3:
             pass
@@ -91,10 +92,10 @@ def VectorCalculations(choiceInput):
         print("{}i + {}j + {}k = {}--------(1)".format(x,y,z,k))
         print("{}i + {}j + {}k = {}--------(2)".format(a,b,c,d))
         if choiceInput == 1:
-            print("{}i + {}j + {}k = {} + {}i + {}j + {}k = {}".format(x,y,z,k,a,b,c,d))
+            print("({}i + {}j + {}k = {}) + ({}i + {}j + {}k = {})".format(x,y,z,k,a,b,c,d))
             print("Answer: {}i + {}j + {}k = {}".format(x+a, y+b, z+c, k+d))
         elif choiceInput == 2:
-            print("{}i + {}j + {}k = {} + {}i + {}j + {}k = {}".format(x,y,z,k,a,b,c,d))
+            print("({}i + {}j + {}k = {}) - ({}i + {}j + {}k = {})".format(x,y,z,k,a,b,c,d))
             print("Answer: {}i + {}j + {}k = {}".format(x-a, y-b, z-c, k-d))
         elif choiceInput == 3:
             pass
