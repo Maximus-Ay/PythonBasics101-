@@ -76,7 +76,8 @@ def VectorCalculations(choiceInput):
             print("({}i + {}j = {}).({}i + {}j = {})".format(x,y,k,a,b,c))
             print("Answer: {}.{} + {}.{} = {}".format(x,a,y,b,((x*a) + (y*b))))
         elif choiceInput == 5:
-            pass
+            print("Magenetude of (1) = {}".format(sqrt((x*x) + (y*y))))
+            print("Magenetude of (2) = {}".format(sqrt((a*a) + (b*b))))
     
     if choiceOfVectorType == 2:
         print("Taking inputs of equation (1): ")
