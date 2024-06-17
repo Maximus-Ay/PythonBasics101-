@@ -72,7 +72,8 @@ def VectorCalculations(choiceInput):
         elif choiceInput == 3:
             pass
         elif choiceInput == 4:
-            pass
+            print("({}i + {}j = {}).({}i + {}j = {})".format(x,y,k,a,b,c))
+            print("Answer: {}.{} + {}.{} = {}".format(x,a,y,b,((x*a) + (y*b))))
         elif choiceInput == 5:
             pass
     
