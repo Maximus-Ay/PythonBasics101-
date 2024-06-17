@@ -76,8 +76,21 @@ def VectorCalculations(choiceInput):
             pass
     
     if choiceOfVectorType == 2:
+        print("Taking inputs of equation (1): ")
+        x = int(input("Enter the coefficient of i in the first vector: "))
+        y = int(input("Enter the coefficient of j in the first vector: "))
+        z = int(input("Enter the coefficient of k in the first vector: "))
+        k = int(input("Enter the value of the constant on the RHS of the equation: "))
+        print("Taking inputs from equation (2): ")
+        a = int(input("Enter the coefficient of i in the second vector: "))
+        b = int(input("Enter the coefficient of j in the second vector: "))
+        c = int(input("Enter the coefficient of k in the second vector: "))
+        d = int(input("Enter the value of the constant on the RHS of the equation: "))
+        print("{}i + {}j + {}k = {}--------(1)".format(x,y,z,k))
+        print("{}i + {}j + {}k = {}--------(2)".format(a,b,c,d))
         if choiceInput == 1:
-            pass
+            print("{}i + {}j + {}k = {} + {}i + {}j + {}k = {}".format(x,y,z,k,a,b,c,d))
+            print("Answer: {}i + {}j + {}k = {}".format(x+a, y+b, z+c, k+d))
         elif choiceInput == 2:
             pass
         elif choiceInput == 3:
@@ -101,7 +114,7 @@ def Vector():
         print('6. Quit')
 
 
-        choiceInput = int(input("Enter your choice"))
+        choiceInput = int(input("Enter your choice: "))
 
         if choiceInput == 6:
             print("Thanks for using my Calculator")
@@ -111,7 +124,7 @@ def Vector():
 
         userAnswer = input("Do you wish to continue: (y or n): ")
         if userAnswer == 'y':
-            pass
+            clearScreen()
         else:
             break
         
