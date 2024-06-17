@@ -53,6 +53,15 @@ def VectorCalculations(choiceInput):
     choiceOfVectorType = int(input("Enter the vector choice: "))
 
     if choiceOfVectorType == 1:
+        print("Taking inputs of equation (1): ")
+        x = int(input("Enter the coefficient of i in the first vector: "))
+        y = int(input("Enter the coefficient of j in the first vector: "))
+        k = int(input("Enter the value of the constant on the RHS of the equation: "))
+        print("Taking inputs from equation (2): ")
+        a = int(input("Enter the coefficient of i in the first vector: "))
+        b = int(input("Enter the coefficient of j in the first vector: "))
+        c = int(input("Enter the value of the constant on the RHS of the equation: "))
+
         if choiceInput == 1:
             pass
         elif choiceInput == 2:
