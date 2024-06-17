@@ -61,9 +61,11 @@ def VectorCalculations(choiceInput):
         a = int(input("Enter the coefficient of i in the first vector: "))
         b = int(input("Enter the coefficient of j in the first vector: "))
         c = int(input("Enter the value of the constant on the RHS of the equation: "))
-
+        print("{}i + {}j = {}--------(1)".format(x,y,k))
+        print("{}i + {}j = {}--------(2)".format(a,b,c))
         if choiceInput == 1:
-            pass
+            print("{}i + {}j = {} + {}i + {}j = {}".format(x,y,k,a,b,c))
+            print("Answer: {}i + {}j = {}".format(x+a, y+b, k+c))
         elif choiceInput == 2:
             pass
         elif choiceInput == 3:
@@ -107,7 +109,7 @@ def Vector():
 
         VectorCalculations(choiceInput)
 
-        userAnswer = int(input("Do you wish to continue: (y or n)"))
+        userAnswer = input("Do you wish to continue: (y or n): ")
         if userAnswer == 'y':
             pass
         else:
