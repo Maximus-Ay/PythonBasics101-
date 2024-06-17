@@ -67,7 +67,8 @@ def VectorCalculations(choiceInput):
             print("{}i + {}j = {} + {}i + {}j = {}".format(x,y,k,a,b,c))
             print("Answer: {}i + {}j = {}".format(x+a, y+b, k+c))
         elif choiceInput == 2:
-            pass
+            print("{}i + {}j = {} + {}i + {}j = {}".format(x,y,k,a,b,c))
+            print("Answer: {}i + {}j = {}".format(x-a, y-b, k-c))
         elif choiceInput == 3:
             pass
         elif choiceInput == 4:
@@ -92,11 +93,13 @@ def VectorCalculations(choiceInput):
             print("{}i + {}j + {}k = {} + {}i + {}j + {}k = {}".format(x,y,z,k,a,b,c,d))
             print("Answer: {}i + {}j + {}k = {}".format(x+a, y+b, z+c, k+d))
         elif choiceInput == 2:
-            pass
+            print("{}i + {}j + {}k = {} + {}i + {}j + {}k = {}".format(x,y,z,k,a,b,c,d))
+            print("Answer: {}i + {}j + {}k = {}".format(x-a, y-b, z-c, k-d))
         elif choiceInput == 3:
             pass
         elif choiceInput == 4:
-            pass
+            print("({}i + {}j + {}k = {}).({}i + {}j + {}k = {})".format(x,y,z,k,a,b,c,d))
+            print("{}.{} + {}.{} + {}.{} = {}".format(x,a,y,b,z,c,((x*a) + (y*b) + (z*c))))
         elif choiceInput == 5:
             pass
     
