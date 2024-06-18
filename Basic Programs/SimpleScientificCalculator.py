@@ -99,11 +99,9 @@ def VectorCalculations(choiceInput):
             print("({}i + {}j + {}k = {}) - ({}i + {}j + {}k = {})".format(x,y,z,k,a,b,c,d))
             print("Answer: {}i + {}j + {}k = {}".format(x-a, y-b, z-c, k-d))
         elif choiceInput == 3:
-            pass
-        elif choiceInput == 4:
             print("({}i + {}j + {}k = {}).({}i + {}j + {}k = {})".format(x,y,z,k,a,b,c,d))
             print("{}.{} + {}.{} + {}.{} = {}".format(x,a,y,b,z,c,((x*a) + (y*b) + (z*c))))
-        elif choiceInput == 5:
+        elif choiceInput == 4:
             print("Magenetude of (1) = {}".format(sqrt((x*x) + (y*y) +(z*z))))
             print("Magenetude of (2) = {}".format(sqrt((a*a) + (b*b) + (c*c))))
     
@@ -115,15 +113,14 @@ def Vector():
         print('WELCOME TO THE VECTORS SECTION')
         print('1. Addition of vectors')
         print('2. Subtraction of vectors')
-        print('3. Cross Product of vectors')
-        print('4. Dot product of vectors')
-        print('5. Magnetude of a vector')
-        print('6. Quit')
+        print('3. Dot product of vectors')
+        print('4. Magnetude of a vector')
+        print('5. Quit')
 
 
         choiceInput = int(input("Enter your choice: "))
 
-        if choiceInput == 6:
+        if choiceInput == 5:
             print("Thanks for using my Calculator")
             break
 
