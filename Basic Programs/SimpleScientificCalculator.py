@@ -43,7 +43,7 @@ def Basic():
         print("Invalid choice") 
         
 
-def MatrixMenu():
+def Matrix():
     while True:
         print('WELCOME TO THE MATRIX SECTION')
         print('1. Addition of matrices')
@@ -55,7 +55,19 @@ def MatrixMenu():
 
         choice = int(input("Enter your choice: "))
 
-def Matrix():
+        if choice == 6:
+            print("Thanks for using this section")
+            break
+
+        MatrixCalculations(choice)
+
+        userAnswer = input("Do you wish to continue: (y or n): ")
+        if userAnswer == 'y':
+            clearScreen()
+        else:
+            break
+
+def MatrixCalculations(choice):
     pass
 
     
