@@ -43,14 +43,22 @@ def Basic():
         print("Invalid choice") 
         
 
+def MatrixMenu():
+    while True:
+        print('WELCOME TO THE MATRIX SECTION')
+        print('1. Addition of matrices')
+        print('2. Subtraction of matrices')
+        print('3. Multiplication of Matrices')
+        print('4. Multiplication of Matrices using a scalar')
+        print('5. Inverse of a Matrix')
+        print('6. Quit')
+
+        choice = int(input("Enter your choice: "))
+
 def Matrix():
-    print('WELCOME TO THE MATRIX SECTION')
-    print('1. Addition of matrices')
-    print('2. Subtraction of matrices')
-    print('3. Multiplication of Matrices')
-    print('4. Multiplication of Matrices using a scalar')
-    print('5. Inverse of a Matrix')
-    print('6. Quit')
+    pass
+
+    
 
 def VectorCalculations(choiceInput):
     print("Vector Choice: ")
