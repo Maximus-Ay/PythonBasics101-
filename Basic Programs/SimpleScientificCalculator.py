@@ -71,9 +71,6 @@ def MatrixCalculations(choice):
     print("Matrix Choice For Inverse: ")
     print("1. 2 X 2 Matrix ")
     print("2. 3 x 3 Matrix ")
-
-
-
     
 
     
@@ -266,8 +263,7 @@ def mainMenu():
     print("3. Vector operations")
     print("4. Simultaneous equations with 2 unknowns")
     print("5. Simultaneous equations with 3 unknowns")
-    print("6. Calculation game")
-    print("7. Quit")
+    print("6. Quit")
 
 def clearScreen():
     if os.name == 'nt':
@@ -297,8 +293,6 @@ while True:
     elif choice == 5:
         SimulWithThreeUnknowns()
     elif choice == 6:
-        calculationGame()
-    elif choice == 7:
         Quit()
         break
     else:
