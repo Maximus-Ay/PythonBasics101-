@@ -1,0 +1,2 @@
+This is just a general introduction to Python.
+All my notes will be written at once in the .py files
