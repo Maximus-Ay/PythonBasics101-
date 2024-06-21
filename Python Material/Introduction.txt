@@ -5,3 +5,7 @@ About Python
 - Python is the easiest programming language to learn and also one of the Most popular.
 - if you want to download python, go to python.org/downloads
 - Also when installing python, make sure it is added to the path
+- After installing Python, the next step is to install the IDE you will use for Python. The two best After
+    1) PyCharm
+    2) VsCode which can be used for basically every language
+- Let's get started.
