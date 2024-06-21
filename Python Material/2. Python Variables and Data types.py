@@ -5,10 +5,11 @@
 '''
 
 # To declare a variable, you simply need the name of the variable and the value it will contain.
-
+print("PYTHON VARIABLES\n")
 age = 20
 print(age) # This will print the variable age. OUTPUT: 20
 
+print("\nPRINT METHODS IN PYTHON\n")
 # There are 4 ways I can print the age variable with other text using the print statement
 
 # Method 1: Using String Concatenation:
@@ -43,7 +44,7 @@ print("I am {} years old".format(age))
 ######  DATA TYPES IN PYTHON##############
 ##########################################
 '''
-
+print("\nPYTHON DATA TYPES\n")
 # In python, we basically have 4 data types.
 #1. INTEGERS: These are whole numbers e.g age, jersey number, quantity etc 
 age = 20
@@ -71,4 +72,23 @@ isAvailable = False
 print(f"is Maximus Online? {isOnline}")
 
 # Note that for booleans their values always start with Capital, and you don't need to put them in quotes
-# as python interpreter alreasy knows it is dealing with a Boolean. 
+# as python interpreter alreasy knows it is dealing with a Boolean.
+
+
+
+'''
+    TIPS AND TRICKS IN PYTHON VARIABLES
+'''
+
+print("\nTIPS AND TRICKS IN PYTHON VARIABLES\n")
+# Tip No 1: You can declare multiple variables at once on a single line
+name, age, profession = "Maximus", 10, "Student"
+
+print(f"My name is {name} and I am {age} years old and I am a {profession}")
+
+# Tip No 2: If you want to assign multiple variables to a single value, you can also do that in one line
+
+x = y = z = 10
+print(x)
+print(y)
+print(z)
