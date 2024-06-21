@@ -3,4 +3,5 @@ All my notes will be written at once in the .py files
 
 About Python
 - Python is the easiest programming language to learn and also one of the Most popular.
-- 
+- if you want to download python, go to python.org/downloads
+- Also when installing python, make sure it is added to the path
