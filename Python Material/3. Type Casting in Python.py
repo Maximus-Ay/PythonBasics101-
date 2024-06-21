@@ -13,3 +13,27 @@
 '''
 
 
+name = "Maximus"
+age = 18
+isStudent = True
+gpa = 3.7
+
+# This is Explicit type casting
+age = str(age)
+print(type(age))
+
+# float to integer
+gpa = int(gpa)
+print(type(gpa))
+
+# string to boolean
+age = bool(age)
+print(type(age))
+
+# Now when we say Implicit type casting, that means that the casting is done automatically especially during calculations
+
+age = age /2.5
+
+print(type(age))
+# Snce the age has been divided by a a float, the result is a float and hence it has been converted automatically to float
+
