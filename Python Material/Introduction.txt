@@ -1,2 +1,6 @@
 This is just a general introduction to Python.
 All my notes will be written at once in the .py files
+
+About Python
+- Python is the easiest programming language to learn and also one of the Most popular.
+- 
