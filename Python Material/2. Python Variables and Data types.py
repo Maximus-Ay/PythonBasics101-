@@ -36,3 +36,39 @@ print("I am {} years old".format(age))
 # This method is very nice when using several variables.
 # It is not very different from formatted strings. Infact they are similar,
 # The difference is the use of the format method
+
+
+'''
+##########################################
+######  DATA TYPES IN PYTHON##############
+##########################################
+'''
+
+# In python, we basically have 4 data types.
+#1. INTEGERS: These are whole numbers e.g age, jersey number, quantity etc 
+age = 20
+jerseyNumber = 12
+
+print(f"My age is {age} and my Jersey number is {jerseyNumber}")
+
+# 2. FLOAT: These are numbers that contain decimal values. 
+price = 2.99
+gpa = 3.7
+
+print(f"My Gpa is {gpa} and the price of my spotofy account is ${price}")
+
+#3. STRINGS: These are simply a series of characters that are enclosed in quotation marks.
+
+name = "Maximus"
+course = "Software Engineering"
+
+print(f"My name is {name} and I am a Student of {course} at the Birla Institute of Technology in India")
+
+#4. BOOLEAN: These are data types that can have only two values. True or False. They are mostly used in
+# conditional statements
+isOnline = True
+isAvailable = False
+print(f"is Maximus Online? {isOnline}")
+
+# Note that for booleans their values always start with Capital, and you don't need to put them in quotes
+# as python interpreter alreasy knows it is dealing with a Boolean. 
