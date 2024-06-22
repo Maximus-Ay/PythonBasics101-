@@ -14,3 +14,6 @@ hobby = input("Enter your hobby: ")
 print(f"Your name is {name} and you are {age} years old and you like {hobby}")
 
 
+
+
+
