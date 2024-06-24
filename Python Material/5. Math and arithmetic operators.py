@@ -27,11 +27,11 @@ number *= 2 # Shortened form
 number = number / 3 # divide number by 3
 number /= 1 # Shortened form 
 
-number = number % 4 # Increment number by 1
-number %= 1 # Shortened form 
+number = number % 4 # finds  number by 4
+number %= 4 # Shortened form 
 
-number = number ** 1 # Increment number by 1
-number **= 1 # Shortened form 
+number = number ** 2 # number raised to the power 2
+number **= 2 # Shortened form 
 
 
 
