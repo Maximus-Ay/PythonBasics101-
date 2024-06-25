@@ -69,6 +69,24 @@ print(abs(y)) # Output: 5
 print(pow(2,4)) # Output: 16
 
 
+print("\n **********USEFUL MATHEMATICAL FUNCTIONS ***********\n")
+
+# To use mathematical functions, you can make use of the math module.
+
+import math
+
+# By just pressing math.something, you get all the mathematical functions that exist in python.
+# Some include:
+
+print(math.sqrt(64)) # Finding the squared root of a number
+print(math.pi) # constant pi
+print(math.e) # The exponential constant
+print(math.ceil(4.6)) # Rounds a number up no matter the decimal point
+print(math.floor(4.6)) # Rounds a number down no matter the decimal number
+
+
+
+
 
 
 
