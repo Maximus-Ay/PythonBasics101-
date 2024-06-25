@@ -1,6 +1,6 @@
 '''
     To receive input from the user from the console, in python, we use the input() function.
-    By default the value obtained from the input function is string.
+    By default the value obtained from the input function is a string.
     So if you want to do some calculations, you will definitely need to type cast it for 
     mathematical calculations.
 
