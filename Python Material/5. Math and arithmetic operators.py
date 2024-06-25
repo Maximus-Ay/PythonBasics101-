@@ -88,6 +88,12 @@ print(math.floor(4.6)) # Rounds a number down no matter the decimal number
 
 # EXERCISE: CALCULATING THE CIRCUMFERENCE OF A CIRCLE
 
+radius = float(input("Enter the radius of the circle: "))
+
+circumference = 2 * math.pi * radius
+
+print(f"The circumference of the circle is: {round(circumference, 3)}cm")
+
 
 
 
