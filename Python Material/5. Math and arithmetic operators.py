@@ -88,11 +88,25 @@ print(math.floor(4.6)) # Rounds a number down no matter the decimal number
 
 # EXERCISE: CALCULATING THE CIRCUMFERENCE OF A CIRCLE
 
+print("CALCULATING THE CIRCUMFERENCE OF A CIRCLE")
+
 radius = float(input("Enter the radius of the circle: "))
 
 circumference = 2 * math.pi * radius
 
 print(f"The circumference of the circle is: {round(circumference, 3)}cm")
+
+
+# EXERCISE: CALCULATING THE AREA OF A CIRCLE
+
+print("CALCULATING THE AREA OF A CIRCLE")
+
+radius = float(input("Enter the radius of the circle: "))
+
+area = math.pi * pow(radius,2)
+
+print(f"The area of the circle is: {round(area, 3)} cm^2") # Rounding the number to three decimal places
+
 
 
 
