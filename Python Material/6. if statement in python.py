@@ -47,5 +47,17 @@ else:
 #  of the different if statements can cause a lot of troube and make the program wrong
 
 
+# The if statement evaluates the truthfulness of a statement, so when dealing with booleans, you don't need 
+# To write something like if variable = True.
+# Example:
 
+
+online = True
+
+if online:
+    print("Welcome to another session Man")
+else:
+    print("Oops you are offline!")
+
+    
 
