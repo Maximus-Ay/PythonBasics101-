@@ -86,6 +86,10 @@ print(math.floor(4.6)) # Rounds a number down no matter the decimal number
 
 
 
+# EXERCISE: CALCULATING THE CIRCUMFERENCE OF A CIRCLE
+
+
+
 
 
 
