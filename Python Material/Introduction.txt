@@ -20,3 +20,5 @@ your git commit sets up to 11 for the 25th of June and 1 for the 26th of June or
 
 Okay Okay it's time for me to also do some two commits today
 
+
+Now this is my fourth commit that I am doing, so I am expecting 11 commits for yesterday and 2 for today
