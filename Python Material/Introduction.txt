@@ -16,3 +16,7 @@ About Python
 - This text that I am writing is my number 11 contribution for my github on the 25th June 2024.
 - So on the 26th June, I am expecting you to also write something down and push it and let's see if 
 your git commit sets up to 11 for the 25th of June and 1 for the 26th of June or they all set for 3 in the 26th of June
+
+
+Okay Okay it's time for me to also do some two commits today
+
