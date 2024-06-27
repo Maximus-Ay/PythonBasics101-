@@ -8,7 +8,13 @@
     => The username must not contain digits
 '''
 
-username = input("Enter your username: ")
+username = str(input("Enter your username: "))
 
-if len(username) >= 12:
-    print(f"Error! {username} is more than 12 characters.")
+if len(username) > 12:
+    print(f"ERROR: {username} is more than 12 characters.")
+elif username.find(" ") >= 0:  # OR elif not useraname.find(" ") == -1:
+    print(f"ERROR: {username} contains Empty spaces!")
+elif not username.isalpha():
+    print(f"ERROR: {username} contains digits!")
+else:
+    print(f"Welcome {username}")
