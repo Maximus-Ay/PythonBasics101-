@@ -61,6 +61,7 @@ print(f"Does the string {name} contain only Alphabetical characters: {name.isalp
 number = "123456789"
 print(f"Is {name} a digit string? {name.isdigit()}") # False
 print(f"is {number} a digit string? {number.isdigit()}") # True
+print(f"Is name Alpha numberic: {password.isalnum()}") # For alpha Numeric characters
 
 # The above methods is just but a few. There are a whole lot of them. 
 # To get all the string methods that exists in python, you need to use the help method
