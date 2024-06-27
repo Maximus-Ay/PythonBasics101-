@@ -67,6 +67,43 @@ print(f"Is name Alpha numberic: {password.isalnum()}") # For alpha Numeric chara
 # To get all the string methods that exists in python, you need to use the help method
 # and the name of the data type, which is string.
 
-print(help(str))
+#print(help(str))
 
+
+'''
+    PYTHON STRING INDEXING
+    => To get a particular character in a string, in python, we use what we call in python: string indexing.
+    => To perform python string indexing, we make use of the indexing operator: []
+    => You need the name of your string, and near it, the indexing operator:e.g name[]
+    => Now the indexing operator, has its formula and things to take into consideration.
+    format: 
+        [start: end: step]
+        1. The start is where you start your indexing, by default the machine starts from zero.
+        2. The end is where you end it and it is also non inclusive or exclusive, that is the number in 
+           the end is not counted when indexing.
+        3. The step is simply how many characters you want to skip to get to the next character.
+    => Some things to take into consideration:
+        1. Example: name[3] = will give you the character at index 3 of the string name
+        2. When you obmit the start, but allow the end. in python its starts from the starting of the string.
+           i.e. name[:4]
+        3. When you obmit the ending but you put the start, it will move from the start to the end of the string.
+           i.e. name[1:]
+        4. To acces characters backwards we use the negative index, with -1 being the index of the very last character.
+           i.e. name[-1] is the last character of the string name
+        5. When you obmit both the start and the end, and put the step, it considers only characters based on the step.
+           i.e. name[::2] will display only characters that are 2 step away. 
+'''
+
+
+String = "Basketball Player"
+
+print(String[0])
+print(String[0:10])
+print(String[:10]) # Does the same thing as above.
+
+print(String[11:]) # Prints from index 11 to the end of the string
+print(String[-1]) # display last character which is r
+print(String[::3]) # Print characters that are three steps away
+print(String[::-2]) # Print the string in reverse
+print(String[2:13:2]) # Print the string, starting from index 2 and ending at index 12, characters that are 2 steps away
 
