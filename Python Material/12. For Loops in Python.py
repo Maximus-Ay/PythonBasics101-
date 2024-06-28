@@ -43,9 +43,36 @@ for x in reversed(myName):
 
 
 # Making use of the step, we have, 
-print("Let's print from 1 to 20 in steps of 3: ")
+print("\nLet's print from 1 to 20 in steps of 3: \n")
 for x in range(1,21,3):
     print(x, end=" ")
+
+
+# So while using for loops in python, there are two important keyword sthat could be used with them.
+# => They are the continue and the break statement
+# => The difference between the break and the continue statement is that,
+# => The break completely stops the loop or breaks out of the loop, even if the number of iterations are not done
+# => Whereas the continue just skips an iteration based on a certain condition.
+
+# Example: Demonstrating the difference between the Break and continue with the same code
+# 1. Continue:
+print("\nContinue")
+for x in range(1, 11):
+    if x == 5:
+        continue
+    else:
+        print(x, end=" ")
+
+
+# 2. Break
+print("\nBreak")
+for x in range(1, 11):
+    if x == 5:
+        break
+    else:
+        print(x, end=" ")
+
+
 
 
 
