@@ -20,3 +20,49 @@
 
 
 '''
+
+# Let's create a list of cars
+
+Cars = ["BMW", "Mercedes Benz", "Toyota Yaris", "KIA", "MacLauren", "Bugatti", "Lamborghini", "JEEP"]
+
+# One function we could use is the len() to get the length of the list.
+print(f"List of Cars: {Cars}")
+print(f"The length of the list of cars is: {len(Cars)}")
+
+# Now we can decide to index the elements in the list of cars.
+
+print(f"The second element in the list of Cars is {Cars[1]}")
+
+# Now we can get a range using sicing.
+
+print(f"The 3rd to the 5th element of the list of Cars is {Cars[2:6]}")
+
+# Note that the slicing rule follows all the rules of the indexing operator.
+
+# You could as well iterate through the list:
+# It is a convention that when you create a list, the name of the list is pluralised. Like a list of cars, 
+# You name it Cars, a list of books, you name it Books. 
+# Now when iterating, using a for loop, you name the counter as the singular of the list name. So 
+# to iterate through the list of cars and print all its values, you simply say for car in Cars.
+
+for car in Cars:
+    print(car, end=" , ")
+
+# This is read as for every car in the List of Cars, print that car.
+
+# List are ordered and changeable and duplicates are okay.
+
+# List are ordered, that is why you can get the value of an element of a list at a particular index.
+
+Names = ["Maximus", "Rafael", "Neves", "Georgio"]
+
+print(f"Because the lists are ordered, I can get the name of at index 3 which is {Names[2]}")
+
+# When we say list are changeable, that means that you can change the element of a list at a particular index.
+
+print(f"Before: {Names}")
+
+Names[0] = "Ronaldinho"
+
+print(f"After: {Names}")
+
