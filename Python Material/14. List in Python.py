@@ -22,7 +22,7 @@
 '''
 
 # Let's create a list of cars
-
+print("\nLIST IN PYTHON\n")
 Cars = ["BMW", "Mercedes Benz", "Toyota Yaris", "KIA", "MacLauren", "Bugatti", "Lamborghini", "JEEP"]
 
 # One function we could use is the len() to get the length of the list.
@@ -37,6 +37,8 @@ print(f"The second element in the list of Cars is {Cars[1]}")
 
 print(f"The 3rd to the 5th element of the list of Cars is {Cars[2:6]}")
 
+print("\nLIST ITERATION\n")
+
 # Note that the slicing rule follows all the rules of the indexing operator.
 
 # You could as well iterate through the list:
@@ -46,16 +48,18 @@ print(f"The 3rd to the 5th element of the list of Cars is {Cars[2:6]}")
 # to iterate through the list of cars and print all its values, you simply say for car in Cars.
 
 for car in Cars:
-    print(car, end=" , ")
+    print(car)
 
 # This is read as for every car in the List of Cars, print that car.
+
+print("\nLIST PROPERTIES\n")
 
 # List are ordered and changeable and duplicates are okay.
 
 # List are ordered, that is why you can get the value of an element of a list at a particular index.
 
 Names = ["Maximus", "Rafael", "Neves", "Georgio"]
-
+print(Names)
 print(f"Because the lists are ordered, I can get the name of at index 3 which is {Names[2]}")
 
 # When we say list are changeable, that means that you can change the element of a list at a particular index.
@@ -65,4 +69,20 @@ print(f"Before: {Names}")
 Names[0] = "Ronaldinho"
 
 print(f"After: {Names}")
+
+# When they say list can accept duplicates, this means that a list can contain the same value
+
+academicRecords = ["Maximus", 3.95, "Bachelor", "Johnathan", 3.95, "Bachelor"]
+
+print(f"The list that contains duplicates is: {academicRecords}")
+
+# To get all information about the list you use the dir(name_of_list) function or help(name_of_list)
+
+print("\nLet me get all the information I need concerning the list above:\n")
+print(dir(academicRecords))
+print(help(academicRecords))
+
+# Some of these methods include: the append() method that adds an element to the end of the list.
+# By pressing a dot after the name of the list, we get all the methods of the list
+
 
