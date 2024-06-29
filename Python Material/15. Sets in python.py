@@ -18,14 +18,29 @@
 '''
 
 
-setOfFruits = {"banana", "Apple", "Banana"}
+setOfFruits = {"banana", "Apple", "grapes"}
 print(setOfFruits)
 setOfFruits.add("Cocunut") # To add a value.
 print(setOfFruits)
 
 # Sets are useful when you are dealing with constants.
 
-# By using the set name and pressing on the dot you get all the list of sets 
+# By using the set name and pressing on the dot you get all the list of sets attributes and methods
+
+setOfFruits.remove("banana")
+print(setOfFruits)
+
+# All list methods and attributes displayed
+
+
+print(type(setOfFruits))
+print("\n\n")
+print(dir(setOfFruits))
+
+print("\n\n")
+
+print(help(setOfFruits))
+
 
 
 
