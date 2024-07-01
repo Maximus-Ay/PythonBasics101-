@@ -42,3 +42,23 @@ for collection in Sports2:
 
 
 # You could make a lists of tuples, a lists of sets, a lists of dictionaries basically all other collection, you can make a list of .
+
+listOfTuples = [("Hello", 1.2 ,"Yo Bro"), ("Maxime", 3.5, "Yo man")]
+
+print(listOfTuples)
+
+# A list of sets will not be a good thing cause the sets have unordered elements.
+
+# You can also have a 2D tuple, since it doesn't accept duplicates.
+print("\nLet's have a num pad: \n")
+num_pad = ((1,2,3), 
+           (4,5,6), 
+           (7,8,9),
+           ("*", 0, "#"))
+
+# printing our numPad
+for row in num_pad:
+    for element in row:
+        print(element, end = "  ")
+    print()
+
