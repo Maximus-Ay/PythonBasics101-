@@ -1,5 +1,5 @@
 '''
-    ARGS AND KWARGS IN PYTHOn
+    ARBITRARY ARGUMENTS IN PYTHON
     *args are used when you want to pass in multiple arguments to a function, that are non key arguments
      What it does is that it all the arguments passed and makes a tuple of them.
     * Kwargs is rather used for multiple keyword arguments
