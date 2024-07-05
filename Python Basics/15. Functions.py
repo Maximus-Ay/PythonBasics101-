@@ -1,0 +1,8 @@
+'''
+    PYTHON FUNCTIONS
+    => 
+
+
+
+
+'''
