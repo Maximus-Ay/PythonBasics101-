@@ -18,7 +18,6 @@ try:
     number = float(input("Enter a number: "))
     number_to_divide_by = float(input("Enter the number to divide by: "))
     result = number/number_to_divide_by
-    print(result)
 
 #except Exception:
     #print("Something went wrong")
@@ -28,3 +27,15 @@ try:
 
 except ZeroDivisionError:
     print("You cannot divide by zero! :(")
+except ValueError as e:
+    print(e)
+    print("You cannot divide by a non value idiot!")
+#except Exception: # For all exceptions that we know nothing about
+#    print("Something went wrong!")
+
+# an additional way is to use the except Exception as e: then print(e)
+# You can use the else at the end of a program.
+# The try will check if there is an exception, the except handles the exception, and the else does the code
+# Let's say we print the result at the end
+else:
+    print(result)
