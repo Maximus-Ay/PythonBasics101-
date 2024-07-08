@@ -35,7 +35,10 @@ except ValueError as e:
 
 # an additional way is to use the except Exception as e: then print(e)
 # You can use the else at the end of a program.
-# The try will check if there is an exception, the except handles the exception, and the else does the code
+# The try will check if there is an exception, the except handles the exception, and the else does the code 
+# if there is no exception
 # Let's say we print the result at the end
 else:
     print(result)
+finally:
+    print("Hey Dude! I am the finally block and I run whether you catch an exception or not! HAHA!")
