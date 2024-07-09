@@ -1,5 +1,0 @@
-Hello man I am just a text file that can 
-help you understand what you are doing in 
-file handling.
-
-I can have as many lines as I want so let's go
