@@ -18,3 +18,7 @@ try:
         print("File Was moved succesfully!")
 except FileNotFoundError:
     print(source+" was not found!")
+
+#You could as well copy folders
+# In the source rather than just using the name of the file, you will need to be able to use the name of the 
+# folder and as well for the destination, that's the only major change.
