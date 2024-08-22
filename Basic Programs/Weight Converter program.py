@@ -2,7 +2,7 @@
     This is a weight converter program that still makes use of the if statement.
     The user can convert from kilograms to pounds and from pounds to kilograms, 
     depending on what the user is asking for
-    Note that 1 pound = 0.454 kilogram.
+    Note that 1 pound = 0.454 kilo
 '''
 def ToPounds(weightInKg):
     return weightInKg/0.454
