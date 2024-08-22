@@ -15,7 +15,7 @@ def outputMessage(output):
     else:
         print("The String is not a palindrome")
   
-input = input("Enter a String: ")
+userinput = input("Enter a String: ")
 
-outputMessage(isPalindrome(input))
+outputMessage(isPalindrome(userinput))
 
