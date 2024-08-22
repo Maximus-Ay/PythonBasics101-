@@ -14,8 +14,7 @@ def outputMessage(output):
         print("The string is a palindrome")
     else:
         print("The String is not a palindrome")
-    
-
+  
 input = input("Enter a String: ")
 
 outputMessage(isPalindrome(input))
