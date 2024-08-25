@@ -1,5 +1,5 @@
 '''
-    Here we are going to make use of the concepts of python if statements to be able to make a simple calculator
+    Here we are going to make use of the concepts of python conditional statements to be able to make a simple calculator, that is using the if statement to be more specific 
     where the user enters the operators and the calculation is performed.
 '''
 
