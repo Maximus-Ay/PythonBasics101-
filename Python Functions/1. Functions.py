@@ -5,7 +5,7 @@
        indent it and write the code that it has to perform.
     => Example:
         def HelloWorld():
-            // piece of code it executes
+            // piece of code to be executed 
 
 '''
 # Declaring and defining a function
