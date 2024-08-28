@@ -2,7 +2,7 @@
     POSTIONAL ARGUMENTS
     => Generally the arguments that are passed to a function are positional arguments.
     => That is the position of the argument matters. If you happen to interchange two of them, 
-       the output is different.
+       the output will not be as expected 
 '''
 # Example
 print("Positional arguments")
