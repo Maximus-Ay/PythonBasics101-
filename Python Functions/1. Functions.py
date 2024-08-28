@@ -36,7 +36,7 @@ GreetingsPro("Maximus", 18)
 # Now you can return a value using the return keyword when using functions.
 # Most at times you will need to store the return value in a variable. 
 
-# let's write a function that returns the addition of two numbers
+# let's write a function that returns the sum of two numbers
 def Addition(num1, num2):
     return num1 + num2
 
