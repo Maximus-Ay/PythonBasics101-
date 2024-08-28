@@ -1,7 +1,7 @@
 '''
     This is a simple tutorial on how to assign a function to a variable
 
-    when you want to assign a function to a variable, what you are assigning is the memory address 
+    when you want to assign a function to a variable, what you are assigning is the memory address of that function.
     of that function and not the function itself. And to do that we use write the function without parenthesis
     example: print(), say = print, 
     What happens now is that the say will behave exactly as the print. So everything that the print can do, 
