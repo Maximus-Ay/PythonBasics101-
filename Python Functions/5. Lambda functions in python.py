@@ -1,6 +1,6 @@
 '''
     LAMBDA FUNCTIONS:
-    => A lambda function is a function that has only one expression, that is does only one action.
+    => A lambda function is a function that has only one expression, that is performs only one action.
     => It's some kind of function short cut and reduces the line of code, cause it occupies just 
        one line of code.
     => It accepts any number of arguments but performs only one action.
