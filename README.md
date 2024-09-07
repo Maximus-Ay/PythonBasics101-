@@ -16,7 +16,7 @@ In this repository, you will find:
 
 - File I/O: Understand how to read from and write to files in Python.
 
-- Error Handling: Learn how to handle errors and exceptions to make your code more robust.
+- Error Handling: Learn how to handle errors and exceptions to make your code more robust and avoid stopping the flow.
 
 - Basic Object-Oriented Programming: An introduction to classes and objects, the cornerstone of OOP in Python.
 
