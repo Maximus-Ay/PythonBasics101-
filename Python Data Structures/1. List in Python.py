@@ -23,7 +23,7 @@
 
 # Let's create a list of cars
 print("\nLIST IN PYTHON\n")
-Cars = ["BMW", "Mercedes Benz", "Toyota Yaris", "KIA", "MacLauren", "Bugatti", "Lamborghini", "JEEP"]
+Cars = ["BMW", "Mercedes Benz", "Toyota Yaris", "KIA", "MacLauren", "Bugatti", "Lamborghini", "JEEP", "SUV"]
 
 # One function we could use is the len() to get the length of the list.
 print(f"List of Cars: {Cars}")
