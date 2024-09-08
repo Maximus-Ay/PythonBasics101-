@@ -44,7 +44,7 @@ print(capitalisedFruits)
 # Lets have a list of numbers, that contain both positive and negative numbers, and create two lists
 # A list of positive numbers and a list of negative numbers.
 
-numbers = [1,2,3,4,-2,7,-23,-7,87,2,5,-8,1]
+numbers = [1,2,3,4,-2,7,-23,-7,87,2,5,-8,4,1]
 
 positive_numbers = [number for number in numbers if number > 0]
 
