@@ -58,7 +58,7 @@ print("\nLIST PROPERTIES\n")
 
 # List are ordered, that is why you can get the value of an element of a list at a particular index.
 
-Names = ["Maximus", "Rafael", "Neves", "Georgio"]
+Names = ["Maximus", "Rafael", "Neves", "Georgio", "Rodri"]
 print(Names)
 print(f"Because the lists are ordered, I can get the name of at index 3 which is {Names[2]}")
 
