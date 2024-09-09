@@ -3,7 +3,7 @@
     => A module in python is just a separate file that contains some reusable code that you want to 
        include in your program.
     => You can use the import keyword to import a module.
-    => There are also built in modules.
+    => There are also built in modules in python.
 
 
 
