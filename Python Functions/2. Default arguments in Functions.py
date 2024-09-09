@@ -6,7 +6,7 @@
 
 '''
 
-# We use default arguments were consistent and not everywhere.
+# We use default arguments were consistent and not everywhere within your code 
 # Imagine you want to start counting, from any number but if the user obmits the start number,
 # you start counting from -1
 # make sure you place default arguments towards the end of parameters of the function declaration
