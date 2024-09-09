@@ -6,7 +6,7 @@
         Objects = {} # An empty set of objects.
     => They have characteristics that distinguish them from other collections.
         1. They do not accept duplicates.
-        2. They are immutable, that is you cannot change the value of a set element when you create a set.
+        2. They are immutable, that is you cannot change the value of a set element when you create a set or initialise it.
         3. They are unordered, this means that you cannot access them using an index.
     => Sets became ordered as from a certain version of python. But at first it wasn't ordered. The 
        ordered nature of sets is that when printing it multiple times, you get the same values in the same order.
