@@ -4,7 +4,7 @@
     => It's some kind of function short cut and reduces the line of code, cause it occupies just 
        one line of code.
     => It accepts any number of arguments but performs only one action.
-    => it is useful if needed for a short period of time, then It can be thrown away.
+    => it is useful if needed for a short period of time, then It can be trashed or thrown away.
     => Its format is:
       lambda parameters: expression
 
