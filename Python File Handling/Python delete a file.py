@@ -1,7 +1,7 @@
 '''
     DELETING A FILE IN PYTHON
     => to delete a file in python, you need the os.remove() method from the os module.
-    => If a file doesn't exist you will encounter an exception. 
+    => If a file doesn't exist you will encounter an exception, that's why it's important to use the try except block.
     => So, the best thing to do when deleting files is to use
 
 
