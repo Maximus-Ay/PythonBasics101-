@@ -1,7 +1,7 @@
 '''
     FILE DETECTION IN PYTHON
     => To do some file detection, you need to import the os module.
-    => File detection is just checking if a file exists
+    => File detection is just checking if a file exists in
     => 
 
 '''
