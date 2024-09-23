@@ -1,5 +1,5 @@
 Hello dudes
-My name is Maximus
+My name is Maximush
 And this is a file
 I am writing to
 I am a text that was appended at the end
